@@ -16,7 +16,7 @@ var template = function (item) {
 	var date = pubDate(item.publishedDate);
 	return '<li class="news-item clearfix span4">'
 			+'<div class="news-date"> <span class="month">'+date.month+'</span> <span class="day">'+date.day+'</span> </div>'
-			+'<div class="share-widget"> <a href="#"><i class="iconf-facebook"></i></a> <a href="#"><i class="iconf-twitter"></i> </a> </div>'
+			// +'<div class="share-widget"> <a href="#"><i class="iconf-facebook"></i></a> <a href="#"><i class="iconf-twitter"></i> </a> </div>'
 			+'<br class="clearfix">'
 			+'<div class="news-entry">'
 				+'<h3 class="entry-title">'+item.title+'</h3>'
